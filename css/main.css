@@ -1,0 +1,88 @@
+body{
+   background-size: cover;
+   background-position: center center;
+  
+  
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+   url(../img/ai-generated-illustration-young-boy-running-with-palestine-flag-front-mosque_665346-41920.avif) ;
+}
+
+.container {
+    padding-top: 30px;
+    margin-top: 50px;
+    background-color: rgba(173, 216, 230,.2);
+    padding-bottom:20px ;
+    width: 60%;
+}
+h1{
+    color:brown;
+    font-size: 70px;
+    font-weight: bold;
+}
+.press{
+    color:lawngreen;
+    font-weight: bold;
+    font-size: 25px;
+}
+button{
+    background-color: yellow;
+    color: black;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    
+
+}
+button:hover{
+    background-color: green;
+}
+
+
+.quote{
+    font-size: 30px;
+    font-weight: bold;
+    height: 30px
+    
+}
+.quotea{
+    text-align: end;
+    color: yellowgreen;
+    padding-top: 35px;
+
+}
+
+
+@media screen and (max-width: 992px) {
+h1{
+    font-size: 50px;
+}
+.press{
+    font-size: 15px;
+}
+.quote{
+    font-size: 20px;
+}
+.container{
+  width: 75%;  
+}
+
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;}
+      h1{
+        font-size: 50px;
+    }
+    .press{
+        font-size: 15px;
+    }
+    .quote{
+        font-size: 20px;
+    }
+  }
+
+  
